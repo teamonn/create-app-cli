@@ -1,6 +1,6 @@
 {
   "name": "create-vue3-cli",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "一键创建 vue3 项目脚手架（含各类最佳实践）",
   "main": "index.js",
   "bin": {
