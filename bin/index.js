@@ -26,7 +26,7 @@ program.command('init <name>')
         ]).then((answers) => {
             const spinner = ora('正在下载模板...');
             spinner.start();
-            download('direct:https://github.com/dualseason/Project_koa.git', name, {clone: true}, (err) => {
+            download('direct:http://gitlab.galaxy-immi.com/Front-end-group/Public/vue3-admin-template.git', name, {clone: true}, (err) => {
                 if(err){
                     spinner.fail();
                     console.log(logSymbols.error, chalk.red(err));
