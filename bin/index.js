@@ -2,8 +2,8 @@
 
 const { program } = require('commander');
 const download = require('download-git-repo');
-const inquirer = require('inquirer');
 const handlebars = require('handlebars');
+const inquirer = require('inquirer');
 const ora = require('ora');
 const logSymbols = require('log-symbols');
 const chalk = require('chalk');
