@@ -16,8 +16,8 @@ program
   .description('查看所有可用的模版')
   .action(() => {
     console.log(
-      `template-vue vue模板
-      template-react react模板`\
+      `template-vue vue模板\n
+      template-react react模板`
     )
   })
 
